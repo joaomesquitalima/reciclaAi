@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f9fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: linear-gradient(135deg, #bde4a2, #89dcc5);
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  border-bottom: 10px solid #4d8c8c;
+}
+
+header img {
+  width: 400px;
+}
+
+nav {
+  background-color: #7fb5b5;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 15px 0;
+  border-radius: 0 0 20px 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 12px 25px;
+  border-radius: 50px;
+  background-color: #66a3a3;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+nav a:hover {
+  background-color: #4d8c8c;
+  transform: scale(1.05);
+}
+
+main {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.section {
+  padding: 40px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.section h2 {
+  font-size: 2rem;
+  color: #1b5e20;
+  margin-bottom: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.section h3 {
+  font-size: 1.8rem;
+  color: #2c6f4f;
+  margin-bottom: 15px;
+}
+
+.section p,
+.section ul {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #555;
+}
+
+.section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.section ul li {
+  margin: 10px 0;
+}
+
+.section ul a {
+  color: #4d8c8c;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.section ul a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background: #66a3a3;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+  font-size: 1.1rem;
+  margin-top: 40px;
+  border-radius: 20px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .form-container input,
+  .form-container textarea {
+    width: 100%;
+    height: 150px;
+  }
+}
